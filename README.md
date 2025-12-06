@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# NEELE - Category-Based Wordle Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+A React-based word guessing game inspired by Wordle, featuring multiple themed categories including Food, Sports, Animals, Countries, and Family. Players have 6 attempts to guess a 5-letter word, with color-coded feedback for each guess.
 
-## Available Scripts
+## Video Link
+https://youtu.be/AhFoQBbOGS8
 
-In the project directory, you can run:
+## Features
+- Multiple word categories (Food, Sports, Animals, Countries, Family, Random)
+- Color-coded feedback system:
+  - Green: Correct letter in correct position
+  - Yellow: Correct letter in wrong position
+  - Gray: Letter not in the word
+- Win/Loss screens with play again functionality
+- Responsive design with gradient backgrounds
 
-### `npm start`
+## Technologies Used
+- React 18
+- JavaScript (ES6+)
+- CSS3
+- Node.js & npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm (comes with Node.js)
 
-### `npm test`
+### Installation Steps
+1. Clone this repository:
+```bash
+   git clone [your-repository-url]
+   cd wordle-game
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+   npm install
+```
 
-### `npm run build`
+3. Start the development server:
+```bash
+   npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. The game will automatically open in your browser at `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Run the Program
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Start the application** using `npm start`
+2. **Select a category** from the main menu (Food, Sports, Animals, Countries, Family, or Random)
+3. **Type your 5-letter guess** using your keyboard
+4. **Press Enter** to submit your guess
+5. **Observe the color feedback** to refine your next guess
+6. **Win** by guessing the word in 6 tries or less, or **lose** if you run out of attempts
+7. **Click "Play Again"** to return to category selection
 
-### `npm run eject`
+## Project Structure
+```
+wordle-game/
+├── code/           # Source code files
+├── data/           # Word lists and configuration
+├── tests/          # Test files
+├── docs/           # Screenshots and documentation
+├── report/         # Final project report
+├── README.md       # This file
+└── package.json    # Project dependencies
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## File Descriptions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Code Files
+- `App.js` - Main React component containing game logic and UI
+- `App.css` - Styling for the entire application
+- `index.js` - React entry point
+- `index.css` - Global styles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Components
+- **Category Selection Screen** - Allows users to choose word category
+- **Game Screen** - Main gameplay interface with letter grid
+- **Win/Loss Screens** - End game displays with results
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
+Neel Ramachandran
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribution Summary
+- Designed and implemented category-based word selection system
+- Created responsive UI with color-coded feedback
