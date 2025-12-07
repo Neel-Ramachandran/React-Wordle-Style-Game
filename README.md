@@ -1,7 +1,7 @@
 # NEELE - Category-Based Wordle Game
 
 ## Project Overview
-A React-based word guessing game inspired by Wordle, featuring multiple themed categories including Food, Sports, Animals, Countries, and Family. Players have 6 attempts to guess a 5-letter word, with color-coded feedback for each guess.
+A React-based word guessing game inspired by Wordle,
 
 ## Video Link
 https://youtu.be/AhFoQBbOGS8
