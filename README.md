@@ -1,7 +1,7 @@
 # NEELE - Category-Based Wordle Game
 
 ## Project Overview
-A React-based word guessing game inspired by Wordle,
+A React-based word guessing game inspired by Wordle.
 
 ## Video Link
 https://youtu.be/AhFoQBbOGS8
