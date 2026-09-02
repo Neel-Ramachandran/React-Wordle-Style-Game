@@ -60,7 +60,7 @@ https://youtu.be/AhFoQBbOGS8
 ```
 wordle-game/
 ├── code/           # Source code files
-├── data/           # Word lists and configuration
+├── src/            # Create React App entry point and default assets
 ├── tests/          # Test files
 ├── docs/           # Screenshots and documentation
 ├── report/         # Final project report
