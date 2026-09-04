@@ -30,8 +30,8 @@ https://youtu.be/AhFoQBbOGS8
 ### Installation Steps
 1. Clone this repository:
 ```bash
-   git clone [your-repository-url]
-   cd wordle-game
+   git clone https://github.com/Neel-Ramachandran/React-Wordle-Style-Game.git
+   cd React-Wordle-Style-Game
 ```
 
 2. Install dependencies:
