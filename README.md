@@ -61,6 +61,7 @@ https://youtu.be/AhFoQBbOGS8
 wordle-game/
 ├── code/           # Source code files
 ├── src/            # Create React App entry point and default assets
+├── public/         # Static assets and HTML template served by Create React App
 ├── tests/          # Test files
 ├── docs/           # Screenshots and documentation
 ├── report/         # Final project report
