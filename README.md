@@ -58,7 +58,7 @@ https://youtu.be/AhFoQBbOGS8
 
 ## Project Structure
 ```
-wordle-game/
+React-Wordle-Style-Game/
 ├── code/           # Source code files
 ├── src/            # Create React App entry point and default assets
 ├── public/         # Static assets and HTML template served by Create React App
