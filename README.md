@@ -59,8 +59,8 @@ https://youtu.be/AhFoQBbOGS8
 ## Project Structure
 ```
 React-Wordle-Style-Game/
-├── code/           # Source code files
-├── src/            # Create React App entry point and default assets
+├── code/           # Duplicate copy of source files (not used by `npm start`)
+├── src/            # Actual source used by Create React App (game logic lives here)
 ├── public/         # Static assets and HTML template served by Create React App
 ├── tests/          # Test files
 ├── docs/           # Screenshots and documentation
