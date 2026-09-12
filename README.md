@@ -16,7 +16,7 @@ https://youtu.be/AhFoQBbOGS8
 - Responsive design with gradient backgrounds
 
 ## Technologies Used
-- React 18
+- React 19
 - JavaScript (ES6+)
 - CSS3
 - Node.js & npm
