@@ -46,6 +46,9 @@ https://youtu.be/AhFoQBbOGS8
 
 4. The game will automatically open in your browser at `http://localhost:3000`
 
+### Running Tests
+Run `npm test` to execute the test suite in `tests/` via `react-scripts test`.
+
 ## How to Run the Program
 
 1. **Start the application** using `npm start`
