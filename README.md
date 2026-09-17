@@ -74,7 +74,7 @@ React-Wordle-Style-Game/
 
 ## File Descriptions
 
-### Code Files
+### Code Files (in `src/`)
 - `App.js` - Main React component containing game logic and UI
 - `App.css` - Styling for the entire application
 - `index.js` - React entry point
