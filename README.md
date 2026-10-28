@@ -53,7 +53,7 @@ Run `npm test` to execute the test suite in `tests/` via `react-scripts test`.
 
 1. **Start the application** using `npm start`
 2. **Select a category** from the main menu (Food, Sports, Animals, Countries, Family, or Random)
-3. **Type your 5-letter guess** using your keyboard
+3. **Type your 5-letter guess** using your keyboard (any 5 letters are accepted; guesses are not checked against a dictionary)
 4. **Press Enter** to submit your guess
 5. **Observe the color feedback** to refine your next guess
 6. **Win** by guessing the word in 6 tries or less, or **lose** if you run out of attempts
